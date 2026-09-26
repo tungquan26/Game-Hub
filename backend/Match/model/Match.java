@@ -1,7 +1,11 @@
-package model;
+package Match.model;
 
 import enums.MatchStatus;
+import model.Team;
+
 import java.time.LocalDateTime;
+
+import Bracket.model.Round;
 
 public class Match {
     private long matchId;

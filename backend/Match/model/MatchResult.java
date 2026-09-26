@@ -1,4 +1,6 @@
-package model;
+package Match.model;
+
+import model.Team;
 
 public class MatchResult {
     private int scoreA;
