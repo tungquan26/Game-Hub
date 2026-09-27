@@ -1,5 +1,5 @@
 package Ranking.model;
 
-public class Ranking {
+public class TeamRanking {
     
 }

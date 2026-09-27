@@ -1,15 +1,24 @@
-package tournament.model;
+package Tournament.model;
 
 import enums.TournamentFormat;
 import enums.TournamentStatus;
+<<<<<<< HEAD
 import match.model.Match;
 import user.model.Organizer;
 import registration.model.Registration;
+=======
+import Match.model.Match;
+import User.model.Organizer;
+import Registration.model.Registration;
+>>>>>>> 5fc94f3f5a87bf18ea41c3698a8e94588953f2a7
 
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.ArrayList;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5fc94f3f5a87bf18ea41c3698a8e94588953f2a7
 
 public class Tournament {
     private long tournamentId;
