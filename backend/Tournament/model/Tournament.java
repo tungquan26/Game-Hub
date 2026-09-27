@@ -1,9 +1,16 @@
-package Tournament.model;
+package tournament.model;
 
 import enums.TournamentFormat;
 import enums.TournamentStatus;
+import match.model.Match;
 import model.Organizer;
 
+import java.time.LocalDateTime;
+import java.util.List;
+import java.util.ArrayList;tration;
+
+import java.time.LocalDateTime;
+import java.util.List;
 import java.time.LocalDateTime;
 
 public class Tournament {
@@ -16,8 +23,12 @@ public class Tournament {
     private int maxTeams;
     private TournamentFormat format;
     private TournamentStatus status;
+    private List<Registration> registrations;
+    private List<Match> matches;
 
     public Tournament() {
+        this.registrations = new ArrayList<>();
+        this.matches = new ArrayList<>();
     }
 
     public Tournament(long tournamentId, String name, String game,
@@ -33,6 +44,9 @@ public class Tournament {
         this.maxTeams = maxTeams;
         this.format = format;
         this.status = status;
+
+        this.registrations = new ArrayList<>();
+        this.matches = new ArrayList<>();
     }
 
     public long getTournamentId() {
@@ -105,6 +119,26 @@ public class Tournament {
 
     public void setStatus(TournamentStatus status) {
         this.status = status;
+    }
+
+    public List<Registration> getRegistrations() {
+        return registrations;
+    }
+
+    public List<Match> getMatches() {
+        return matches;
+    }
+
+    public void addRegistration(Registration registration) {
+        if (registration != null) {
+            this.registrations.add(registration);
+        }
+    }
+
+    public void addMatch(Match match) {
+        if (match != null) {
+            this.matches.add(match);
+        }
     }
 
     @Override
