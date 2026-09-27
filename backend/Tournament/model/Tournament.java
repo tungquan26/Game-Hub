@@ -1,17 +1,14 @@
-package tournament.model;
+package Tournament.model;
 
 import enums.TournamentFormat;
 import enums.TournamentStatus;
-import match.model.Match;
-import model.Organizer;
+import Match.model.Match;
+import User.model.Organizer;
+import Registration.model.Registration;
 
 import java.time.LocalDateTime;
 import java.util.List;
-import java.util.ArrayList;tration;
-
-import java.time.LocalDateTime;
-import java.util.List;
-import java.time.LocalDateTime;
+import java.util.ArrayList;
 
 public class Tournament {
     private long tournamentId;

@@ -1,6 +1,6 @@
-package ranking.model;
+package Ranking.model;
 
-import user.model.Player;
+import User.model.Player;
 
 public class PlayerRanking implements Comparable<PlayerRanking> {
 

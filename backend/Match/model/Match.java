@@ -1,7 +1,7 @@
 package Match.model;
 
 import enums.MatchStatus;
-import model.Team;
+import Team.model.Team;
 
 import java.time.LocalDateTime;
 
