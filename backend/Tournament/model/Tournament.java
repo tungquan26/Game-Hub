@@ -3,15 +3,13 @@ package tournament.model;
 import enums.TournamentFormat;
 import enums.TournamentStatus;
 import match.model.Match;
-import model.Organizer;
+import user.model.Organizer;
+import registration.model.Registration;
 
 import java.time.LocalDateTime;
 import java.util.List;
-import java.util.ArrayList;tration;
+import java.util.ArrayList;
 
-import java.time.LocalDateTime;
-import java.util.List;
-import java.time.LocalDateTime;
 
 public class Tournament {
     private long tournamentId;
