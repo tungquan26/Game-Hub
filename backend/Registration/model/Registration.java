@@ -1,8 +1,12 @@
-package model;
+package Registration.model;
 
 import enums.CheckInStatus;
 import enums.RegistrationStatus;
+import model.Team;
+
 import java.time.LocalDateTime;
+
+import Tournament.model.Tournament;
 
 public class Registration {
     private long registrationId;

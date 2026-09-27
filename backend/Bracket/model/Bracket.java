@@ -1,8 +1,10 @@
-package model;
+package Bracket.model;
 
 import enums.TournamentFormat;
 import java.util.ArrayList;
 import java.util.List;
+
+import Tournament.model.Tournament;
 
 public class Bracket {
     private long bracketId;

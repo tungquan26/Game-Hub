@@ -1,7 +1,9 @@
-package model;
+package Tournament.model;
 
 import enums.TournamentFormat;
 import enums.TournamentStatus;
+import model.Organizer;
+
 import java.time.LocalDateTime;
 
 public class Tournament {

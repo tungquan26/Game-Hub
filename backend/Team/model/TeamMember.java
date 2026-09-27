@@ -1,10 +1,10 @@
-package model;
+package team.model;
 
 import enums.TeamMemberRole;
 import java.time.LocalDateTime;
 
 public class TeamMember {
-    private Player player;
+    private user.model.Player player;
     private LocalDateTime joinedAt;
     private TeamMemberRole role;
 

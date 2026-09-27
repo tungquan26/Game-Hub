@@ -1,11 +1,16 @@
-package model;
+package Bracket.model;
+
+import Match.model.Match;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Round {
+
     private int roundNumber;
+
     private String name;
+
     private List<Match> matches;
 
     public Round() {
